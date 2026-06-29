@@ -1,7 +1,7 @@
-// app/status/route.js · Health endpoint for the readiness probe and the grader.
-// Reachable at /status.
+// app/healthcheck/route.js · Health endpoint for the readiness probe.
+// Reachable at /healthcheck.
 
-import { dbConfig, ping } from '../../lib/db';
+import { dbConfig, ping } from '@/lib/db';
 
 export const dynamic = 'force-dynamic';
 
