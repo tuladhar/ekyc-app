@@ -1,8 +1,8 @@
 {
-  "name": "ekyc-app",
+  "name": "ckyc-app",
   "version": "1.0.0",
   "private": true,
-  "description": "eKYC application service (Next.js)",
+  "description": "CKYC (Central KYC) application service (Next.js)",
   "scripts": {
     "dev": "next dev -p ${PORT:-8080}",
     "build": "next build",
@@ -11,10 +11,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.427.0",
     "mysql2": "^3.11.0",
     "next": "^14.2.5",
     "pg": "^8.12.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slot": "^1.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
   }
 }
