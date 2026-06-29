@@ -3,7 +3,7 @@
 
 export function up() {
   return `
-    INSERT INTO ekyc_applications
+    INSERT INTO ckyc_applications
       (ckyc_number, full_name, document_type, document_number, email, phone, status)
     VALUES
       ('CKYC-10000001', 'Asha Sharma',    'Citizenship', '12-01-75-04567', 'asha.sharma@example.com',   '+977-9801010101', 'verified'),
